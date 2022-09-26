@@ -1,0 +1,44 @@
+#works{
+    position: relative;
+    top: 60px;
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#works #how_we_works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#works #how_we_works h4{
+    font-size: 2em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#works #how_we_works p{
+    margin: 20px 0;
+}
+
+#works #procedure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#works #procedure div img{
+    height: 150px;
+    padding: 0 80px;
+}
+
+#works #procedure div h6{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    padding: 5px 0;
+}

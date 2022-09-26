@@ -1,0 +1,25 @@
+section#about_us{
+    position: relative;
+    top: 60px;
+    display: flex;
+    margin: 0 150px;
+}
+
+#about_us #about_us_text{
+    padding: 50px 100px 0 0;
+}
+
+#about_us #about_us_text h4{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#about_us #learn_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about_us #learn_image img{
+    height: 250px;
+}

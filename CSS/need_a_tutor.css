@@ -1,0 +1,85 @@
+form{
+    position: relative;
+    top: 60px;
+    margin: 50px 450px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+form h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+form h4{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+form #form_name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+
+form #form_name #container_fname, 
+form #form_name #container_lname{
+    width: 46%;
+}
+
+form #form_name #container_fname input,
+form #form_name #container_lname input{
+    width: 100%;
+}
+
+form #form_others{
+    width: 100%;
+}
+
+form #form_others #container_mobile_no,
+form #form_others #container_email,
+form #form_others #container_course,
+form #form_others #container_help,
+form #form_others #container_submit{
+    padding: 13px 0;
+}
+
+form #form_others input{
+    width: 100%;
+}
+
+form input{
+    height: 30px;
+    border: 1px solid #a5a6a8;
+    padding: 0 5px;
+}
+
+form #form_others #container_submit{
+    display: flex;
+    justify-content: center;
+    padding: 13px 0;
+}
+
+form #form_others #container_submit button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #a5a6a8;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+form #form_others #container_submit button:hover{
+    background: #000;
+    color: #fff;
+}
+
+form #form_others #container_submit button:active{
+    background-color: #fff;
+    color: #000;
+}
