@@ -3,7 +3,10 @@ section#about_us{
     top: 60px;
     margin-top: 30px;
     display: flex;
-    margin: 0 150px;
+/*     margin: 0 150px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 #about_us #about_us_text{
