@@ -38,3 +38,32 @@ section#call_us{
     margin: 30px 0;
     cursor: pointer;
 }
+
+@media (max-width:720px){
+    section#call_us{
+        height: 350px;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:500px){
+    section#call_us{
+        height: 350px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #call_us h4{
+        font-size: 1em;
+    }
+
+    #call_us h2{
+        font-size: 2em;
+    }
+
+    #call_us p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

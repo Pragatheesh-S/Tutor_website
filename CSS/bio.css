@@ -28,7 +28,7 @@ section#bio{
     padding: 10px;
     margin: 0 10px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     background: linear-gradient(to right,#4e4f50, #3e3f40, #000);
     color: #fff;
@@ -50,4 +50,28 @@ section#bio{
 #bio #form_buttons button a:active{
     text-decoration: none;
     color: #858688;
+}
+
+@media (max-width:680px){
+    #bio h2{
+        font-size: 2em;
+    }
+    
+    #bio h4{
+        font-size: 1em;
+    }
+
+    #bio #form_buttons button{
+        width: 170px;
+    }
+}
+
+@media (max-width:500px){
+    #bio h2{
+        font-size: 1.8em;
+    }
+    
+    #bio h4{
+        font-size: 0.9em;
+    }
 }

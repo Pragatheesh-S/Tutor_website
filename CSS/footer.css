@@ -7,6 +7,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 
 footer h3{
@@ -55,4 +56,27 @@ footer div span #wa:hover{
 footer p{
     text-align: center;
     margin: 7px 200px;
+}
+
+@media (max-width:1200px){
+    /* footer{
+        background-image: url(images/cat_edited_1200px.jpg);
+    } */
+
+    footer p{
+        margin: 7px 150px;
+    }
+}
+
+@media (max-width:1000px){
+    footer p{
+        margin: 7px 100px;
+    }
+}
+
+@media (max-width:720px){
+    footer p{
+        margin: 7px 20px;
+        font-size: 14px;
+    }
 }
