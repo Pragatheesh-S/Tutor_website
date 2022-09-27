@@ -1,12 +1,15 @@
 #why_choose_us{
     position: relative;
     top: 60px;
-    margin: 50px 300px 0;
+    /* margin: 50px 300px 0; */
+    margin-top: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #fff;
 }
 
 #why_choose_us h3{
@@ -22,24 +25,34 @@
 
 @media (max-width:1280px){
     #why_choose_us{
-        margin: 50px 200px 0;
+        /* margin: 50px 200px 0; */
+        width: 70%;
     }
 }
 
 @media (max-width:1080px){
     #why_choose_us{
-        margin: 50px 150px 0;
+        /* margin: 50px 150px 0; */
+        width: 75;
     }
 }
 
 @media (max-width:920px){
     #why_choose_us{
-        margin: 50px 100px 0;
+        /* margin: 50px 100px 0; */
+        width: 80%;
     }
 }
 
 @media (max-width:720px){
     #why_choose_us{
-        margin: 50px 80px 0;
+        /* margin: 50px 80px 0; */
+        width: 85%;
+    }
+}
+
+@media (max-width:500px){
+    #why_choose_us{
+        width: 90%;
     }
 }
