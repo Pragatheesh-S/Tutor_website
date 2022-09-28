@@ -1,7 +1,9 @@
 form{
     position: relative;
     top: 60px;
-    margin: 50px 450px;
+    /* margin: 50px 450px; */
+    margin: 50px auto;
+    width: 40%;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -82,4 +84,34 @@ form #form_others #container_submit button:hover{
 form #form_others #container_submit button:active{
     background-color: #fff;
     color: #000;
+}
+
+@media (max-width:1200px){
+    form{
+        width: 50%;
+    }
+}
+
+@media (max-width:970px){
+    form{
+        width: 60%;
+    }
+}
+
+@media (max-width:750px){
+    form{
+        width: 70%;
+    }
+}
+
+@media (max-width:650px){
+    form{
+        width: 80%;
+    }
+}
+
+@media (max-width:550px){
+    form{
+        width: 90%;
+    }
 }
