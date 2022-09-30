@@ -13,7 +13,8 @@ header{
 .logo{
     height: 60px;
     line-height: 60px;
-    color: #12334e;
+    /* color: #12334e; */
+    color: #000;
     font-weight: 700;
     font-size: 2em;
     cursor: pointer;
@@ -94,7 +95,7 @@ header{
 }
 
 #navbar ul li a{
-    color: #12334e;
+    color: #000;
     height: 60px;
     line-height: 60px;
     display: inline-block;

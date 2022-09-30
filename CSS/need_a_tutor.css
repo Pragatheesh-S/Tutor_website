@@ -51,6 +51,17 @@ form #form_others #container_submit{
     padding: 13px 0;
 }
 
+form label{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+form #field_required{
+    color: #ee0000;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 form #form_others input{
     width: 100%;
 }

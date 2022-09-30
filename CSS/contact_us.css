@@ -57,6 +57,17 @@
     flex-direction: column;
 }
 
+form label{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+form #field_required{
+    color: #ee0000;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 form input {
     height: 30px;
     border: 1px solid #a5a6a8;
