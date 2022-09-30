@@ -73,7 +73,7 @@
         <div id="form">
             <h2>INQUIRY NOW</h2>
 
-            <form action="">
+            <form action="" onsubmit="contactUsSendEmail(); reset(); return false;">
                 <div id="container_name">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" required>
@@ -95,7 +95,7 @@
                 </div>
 
                 <div id="submit">
-                    <button>Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
@@ -125,7 +125,13 @@
         <p>Copyright © 2022 San Tutors | Designed by - Pragatheesh</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/contact_us.js"></script>
+
+    <!-- SmtpJS.com
+    Send email from Javascript -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- ION ICONS -->
 

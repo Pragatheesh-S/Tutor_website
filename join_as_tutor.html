@@ -66,7 +66,7 @@
         </div>
     </section>
 
-    <form action="" method="post">
+    <form action="" method="post" onsubmit="joinAsTutorSendEmail(); reset(); return false;">
         <h2>Free registration</h2>
         <h4>Join as tutor</h4>
         <div id="form_name">
@@ -79,7 +79,7 @@
             <div id="container_lname">
                 <label for="lname">Last name</label>
                 <br>
-                <input type="text" name="lname" id="lname">
+                <input type="text" name="lname" id="lname" required>
             </div>
         </div>
 
@@ -87,7 +87,7 @@
             <div id="container_mobile_no">
                 <label for="mobile_no">Mobile No.</label>
                 <br>
-                <input type="number" name="mobile_no" id="mobile_no." required>
+                <input type="number" name="mobile_no" id="mobile_no" required>
             </div>
 
             <div id="container_email">
@@ -138,7 +138,13 @@
         <p>Copyright © 2022 San Tutors | Designed by - Pragatheesh</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/join_as_tutor.js"></script>
+
+        <!-- SmtpJS.com
+    Send email from Javascript -->
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- ION ICONS -->
 

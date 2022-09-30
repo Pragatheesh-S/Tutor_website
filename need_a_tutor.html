@@ -66,20 +66,20 @@
         </div>
     </section>
 
-    <form action="">
+    <form action="" method="post" onsubmit="needATutorSendEmail(); reset(); return false;">
         <h2>Free registration</h2>
         <h4>Find a tutor</h4>
         <div id="form_name">
             <div id="container_fname">
                 <label for="fname">First Name</label>
                 <br>
-                <input type="text" name="fname" id="fname">
+                <input type="text" name="fname" id="fname" required>
             </div>
 
             <div id="container_lname">
                 <label for="lname">Last name</label>
                 <br>
-                <input type="text" name="lname" id="lname">
+                <input type="text" name="lname" id="lname" required>
             </div>
         </div>
 
@@ -87,25 +87,25 @@
             <div id="container_mobile_no">
                 <label for="mobile_no">Mobile No.</label>
                 <br>
-                <input type="number" name="mobile_no" id="mobile_no.">
+                <input type="number" name="mobile_no" id="mobile_no" required>
             </div>
 
             <div id="container_email">
                 <label for="email">Email Address</label>
                 <br>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
             </div>
 
             <div id="container_course">
                 <label for="course">Class / Courses you need help with </label>
                 <br>
-                <input type="text" name="course" id="course">
+                <input type="text" name="course" id="course" required>
             </div>
 
             <div id="container_help">
                 <label for="help">Subject you need help with</label>
                 <br>
-                <input type="text" name="help" id="help">
+                <input type="text" name="help" id="help" required>
             </div>
 
             <div id="container_submit">
@@ -138,7 +138,13 @@
         <p>Copyright © 2022 San Tutors | Designed by - Pragatheesh</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
+    <script src="JS/need_a_tutor.js"></script>
+
+            <!-- SmtpJS.com
+    Send email from Javascript -->
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- ION ICONS -->
 

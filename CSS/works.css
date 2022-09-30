@@ -17,7 +17,7 @@
 #works #how_we_works h4 {
     font-size: 2em;
     font-weight: 600;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 #works #how_we_works p {
@@ -76,7 +76,7 @@
 
 @media (max-width:750px) {
     #works {
-        margin: 0 50px;
+        margin: 0 40px;
     }
 
     #works #procedure {
@@ -96,6 +96,10 @@
 }
 
 @media (max-width:555px) {
+    #works {
+        margin: 0 25px;
+    }
+
     #works #procedure div {
         width: 100%;
         padding: 20px 10px;
