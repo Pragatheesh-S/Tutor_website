@@ -8,8 +8,12 @@ function joinAsTutorSendEmail() {
         "<hr> Last Name: " + document.getElementById('lname').value + 
         "<hr> Mobile Number: " + document.getElementById('mobile_no').value +
         "<hr> Email: " + document.getElementById('email').value +
+        "<hr> Address: " + document.getElementById('address').value +
+        "<hr> Board: " + document.getElementById('board').value +
         "<hr> Class / Courses: " + document.getElementById('course').value +
-        "<hr> Subjects: " + document.getElementById('help').value
+        "<hr> Subjects: " + document.getElementById('help').value +
+        "<hr> Convenience: " + document.getElementById('convenience').value +
+        "<hr> He/She can travel: " + document.getElementById('travel').value
     }).then(
         message => alert('Message sent succesfully')
     );

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Need a tutor | San tutors</title>
 
-    <link rel="stylesheet" href="CSS/need_a_tutor.css">
+    <link rel="stylesheet" href="CSS/tutor_form.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/form_path.css">
@@ -108,9 +108,27 @@
                 <input type="email" name="email" id="email" required>
             </div>
 
+            <div id="container_address">
+                <label for="address">
+                    Address with Pincode
+                    <span id="field_required">*</span>
+                </label>
+                <br>
+                <textarea type="address" name="address" id="address" cols="30" rows="10"></textarea>
+            </div>
+
+            <div id="container_board">
+                <label for="board">
+                    Board
+                    <span id="field_required">*</span>
+                </label>
+                <br>
+                <input type="text" name="board" id="board">
+            </div>
+
             <div id="container_course">
                 <label for="course">
-                    Class / Courses you need help with 
+                    Class / Courses
                     <span id="field_required">*</span>
                 </label>
                 <br>
@@ -124,6 +142,18 @@
                 </label>
                 <br>
                 <input type="text" name="help" id="help" required>
+            </div>
+
+            <div id="container_convenience">
+                <label for="convenience">
+                    Select your convenience
+                    <span id="field_required">*</span>
+                    <br>
+                    <select name="convenience" id="convenience" required>
+                        <option value="home_tution">Home tution</option>
+                        <option value="online_tution">Online tution</option>
+                    </select>
+                </label>
             </div>
 
             <div id="container_submit">
